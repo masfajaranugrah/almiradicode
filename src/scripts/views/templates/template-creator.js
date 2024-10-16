@@ -1,3 +1,4 @@
+
 import CONFIG from '../../globals/config';
 import 'lazysizes';
 import 'lazysizes/plugins/parent-fit/ls.parent-fit';
@@ -45,9 +46,9 @@ ${restaurant.customerReviews.map((key) => (
 <hr/>
 <div id="pendapat">
 <h3> Ulasan Kamu </h3>
-<form>
-<input type="text" class="inputreview" placeholder="Nama" required></input>
-<textarea type="text" class="namereviewer" placeholder="Ulasan Misal : Makanan Nya enak" required></textarea>
+<form> 
+<input type="text" class="namereviewer" placeholder="Nama" required></input>
+<textarea type="text" class="inputreview" placeholder="Ulasan Misal : Makanan Nya enak" required></textarea>
 <button class="kirim-ulasan" aria-label="Kirim Ulasan">Kirim Ulasan</button>
 </form>
 </div>
